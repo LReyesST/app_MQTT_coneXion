@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15516C"
+    android:onClick="publicarD1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/boton_apagar_RR"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD8"
+        android:text="Off"
+        app:backgroundTint="#0B0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <Button
+        android:id="@+id/boton_encender_R"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD3"
+        android:text="On"
+        app:backgroundTint="#6A1C1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/boton_apagar_R"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD4"
+        android:text="OFF"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/btn_public"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD1"
+        android:text="ON"
+        app:backgroundTint="#FA0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/boton_encender_RR"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD7"
+        android:text="On"
+        app:backgroundTint="#1AF122"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
+
+    <Button
+        android:id="@+id/boton_encender_A"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD5"
+        android:text="On"
+        app:backgroundTint="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <Button
+        android:id="@+id/boton_apagar_A"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD6"
+        android:text="Off"
+        app:backgroundTint="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <Button
+        android:id="@+id/boton_apagar"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:onClick="publicarD2"
+        android:text="OFF"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comando de Luces"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="36dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
